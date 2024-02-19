@@ -1,0 +1,39 @@
+
+Capstone Project :
+
+Register :
+
+{
+    "username":"VinothkumarSelvaarasan",
+    "password":"123456789",
+    "userType":"ADMIN",
+    "email":"vinoth@gmail.com"
+}
+
+Login:
+
+{
+    "token": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJWaW5vdGhrdW1hclNlbHZhYXJhc2FuIiwicm9sZSI6IkFETUlOIiwiaWF0IjoxNzA4MzIzNzA4LCJleHAiOjE3MDg0MTAxMDh9.CTUJoN-n36dYf-l7Tovs0Ur8ki9kXDgcVQvohKcePa0bkFeRlh1lJZ0x6pyKB4RK9D3YAsAFH_PDQ9Yg9mmmvg",
+    "username": "VinothkumarSelvaarasan",
+    "email": "vinoth@gmail.com",
+    "role": "ADMIN"
+}
+Add Destination
+
+http://localhost:5000/api/Adddestination
+
+Input:
+{
+    "state":"Tamilnadu",
+    "locationName":"Ooty",
+    "highLights":"Wonderful Flower Show"
+}
+
+Output:
+{
+    "id": 1,
+    "state": "Tamilnadu",
+    "locationName": "Ooty",
+    "highLights": "Wonderful Flower Show"
+}
+
